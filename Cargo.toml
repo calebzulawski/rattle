@@ -1,0 +1,12 @@
+[package]
+name = "rattle"
+version = "0.1.0"
+authors = ["Caleb Zulawski <caleb.zulawski@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+failure = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1"
+sha2 = "0.8"
+base64 = "0.10"
